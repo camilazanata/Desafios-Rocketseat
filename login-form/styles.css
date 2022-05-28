@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    font-family: "Poppins";
+    background-color: #191816;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 572px;
+    height: 572px;
+    background-color: #24221F;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h2 {
+    margin: 0;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:  #D4CCB6;
+}
+
+.header p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB6C2;
+}
+
+.login-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB6C2;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    padding: 10px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    padding: 10px;
+    width: 335px;
+}
+
+input {
+    width: 100%;
+    margin-left: 10px;
+    border: transparent;
+    background-color: transparent;
+}
+
+::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A9AFB9;
+}
+
+.resources{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 355px;
+    margin-top: 15px; 
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.checkbox label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 162px;
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A9AFB9;
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFC632;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 355px;
+    height: 52px;
+    margin-top: 15px;
+    border: transparent;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #473404;
+    background-color: #FFC632;
+}
+
+.register {
+    margin-top: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFC632;
+}
+
+.side-img {
+    width: 50%;
+    height: 1080px;
+    background-image: url(assets/side-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+}

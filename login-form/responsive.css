@@ -1,0 +1,12 @@
+@media only screen and (max-width: 800px) {
+
+container {
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.side-img {
+    display: none;
+}
+
+}
