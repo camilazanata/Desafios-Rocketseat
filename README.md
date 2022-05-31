@@ -16,4 +16,4 @@ Challenge: Login Form
 
 Challenge: RocketNews
 
-<img src="https://imgur.com/a/xThv3Ku.png">
+<img src="https://i.imgur.com/ddJi2nK.png">
