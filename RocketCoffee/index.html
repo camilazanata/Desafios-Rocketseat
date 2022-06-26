@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketCoffee</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+    
+</head>
+
+<body id="body">
+
+    <div class="header" id="header">
+ 
+            <div class="Logo">
+                <img class="logo-desktop" src="./assets/logo.svg" alt="Logo da empresa Rocketseat">
+                <img class="logo-mobile" src="./assets/logo-mobile.svg" alt="Logo da empresa Rocketseat">
+            </div>
+
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Recompensas</li>
+                <li>Gift Cards</li>
+                <li>Lojas</li>
+            </ul>
+
+            <button class="get-coffee-button">
+                PEGAR MEU CAFÉ
+            </button>
+
+            <div class="hamburger-menu" id="hamburger-menu">
+                <button onclick="showNav()">
+                    <img src="./assets/hamburger-menu.svg" alt="ícone de menu, no formato 'hambúrguer' "/>
+                </button>
+            </div>
+
+            <div class="close-menu" id="close-menu">
+                <button onclick="closeHamburgerMenu()">
+                    <img src="assets/close-button.svg" alt="Botão em formato de X para fechamento do menu">
+                </button>
+            </div>
+
+            <div class="dropdown-menu" id="dropdown">
+                <ul class="dropdown">
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Recompensas</li>
+                    <li>Gift Cards</li>
+                    <li>Lojas</li>
+                </ul>
+            </div>
+            
+    </div>
+
+    <hr>
+
+    <div class="mobile-content">
+        <p>O café que fará seu código decolar para o próximo nível.</p>
+
+        <button class="get-coffee-button">
+            PEGAR MEU CAFÉ >
+        </button>
+        
+    </div>
+
+    <div class="content">
+        <h1>Great Coffee</h1>
+        <h2>&lt;Great Code/&gt; </h2>
+        <img src="./assets/img-coffee.svg" alt="Dois copos de café e grãos de café flutuando">
+    </div>
+
+    <div class="right-blur">
+        <img src="./assets/right-blur.svg" alt="Desfoco na cor roxa">
+    </div>
+
+    <div class="left-blur">
+        <img src="./assets/left-blur.svg" alt="Desfoco na cor roxa">
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
