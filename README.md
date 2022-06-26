@@ -17,3 +17,8 @@ Challenge: Login Form
 Challenge: RocketNews
 
 <img src="https://i.imgur.com/ddJi2nK.png">
+
+Challenge: Theme Switcher
+
+<img src="https://i.imgur.com/quFl4yg.png">
+<img src="https://i.imgur.com/RMFUylX.png">
