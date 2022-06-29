@@ -26,8 +26,9 @@ Challenge: Theme Switcher
 Challenge: RocketCoffe
 
 <img src="https://i.imgur.com/fjCANCl.png">
-<img src="https://i.imgur.com/TfnsZOD.png"> <img src="https://i.imgur.com/df9y7yM.png">
-
+<img src="https://i.imgur.com/TfnsZOD.png"> 
+<img src="https://i.imgur.com/df9y7yM.png">
 
 Challenge: Pricing Table
+
 <img src="https://i.imgur.com/Y614zNj.png">
