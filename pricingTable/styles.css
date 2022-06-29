@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        to top,
+        #fff 0%,
+        #fff 50%,
+        #1D539E 50%,
+        #1D539E 100%
+    );
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    color:#fff;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    width: 555px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #1E2338;
+}
+   
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 60px;
+    width: 1100px;
+    gap: 25px;
+}
+
+.value {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    letter-spacing: -1px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E2338;
+}
+
+.cents {
+    font-size: 18px;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #828799;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828799;
+}
+
+hr {
+    width: 295px;
+    color:#EEEEEE;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #828799;
+
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.transparent-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 50px;
+    margin-top: 118px;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D539E;
+}
+
+.professional .transparent-button {
+    margin-top: 50px;
+}
+
+.free {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 295px;
+
+    background-color: #fff;
+    border: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+}
+
+.basic {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 295px;
+
+    background-color: #fff;
+    border: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+}
+
+.basic-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 355px;
+    height: 80px;
+    gap: 148px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFCC29;
+}
+
+.basic-header h3 {
+    color: #1D539E;
+}
+
+.popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 95px;
+    height: 32px;
+    border: none;
+    border-radius: 40px;
+    background-color: #1D539E;
+
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.filled-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 50px;
+    margin-top: 67px;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+    background-color: #1D539E;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.professional {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 295px;
+
+    background-color: #fff;
+    border: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+}
+
