@@ -32,3 +32,7 @@ Challenge: RocketCoffe
 Challenge: Pricing Table
 
 <img src="https://i.imgur.com/Y614zNj.png">
+
+Challenge: RocketShoes
+
+<img src="https://i.imgur.com/CgCWaht.png">
