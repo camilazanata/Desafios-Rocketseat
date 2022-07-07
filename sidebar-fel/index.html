@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar">
+        <div class="header">
+            <img id="logo" src="./assets/logo.png">
+            <button onclick="hideSidebar()" class="menu">
+                <img src="./assets/menu.png">
+            </button>
+        </div>
+
+        <div class="search-bar" id="search-bar">
+            <img src="./assets/search.png" />
+            <input style="border: none;" placeholder="Buscar" id="search-input"/>
+        </div>
+        <div class="items" id="items">
+            <ul id="list">
+                <li>
+                    <img src="./assets/grid.png" id="img1">
+                    <div id="menu-item1">Dashboard</div>
+                </li>
+                <li>
+                    <img src="assets/pet.png" id="img2">
+                    <div id="menu-item2">Pets</div>
+                </li>
+                <li>
+                    <img src="./assets/user.png" id="img3">
+                    <div id="menu-item3">Clientes</div>
+                </li>
+                <li>
+                    <img src="./assets/user-md.png" id="img4">
+                    <div id="menu-item4">Vets</div>
+                </li>
+                <li>
+                    <img src="./assets/settings.png" id=img5>
+                    <div id="menu-item5">Ajustes</div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <img id="avatar" src="assets/avatar.png">
+            <div id="description" class="description">
+                <p>Eleanor Pena</p>
+                <p>Veterinária</p>
+            </div>
+            <button class="sair" onclick="returnPage()">
+                <img src="assets/log-out.png">
+            </button>
+        </div>
+    </div>
+    <h1>Dashboard</h1>
+</body>
+
+<script src="sidebar.js"></script>
+
+</html>
